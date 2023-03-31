@@ -9,3 +9,6 @@ Change log v0.1:
 #Changed the colors of the players
 #Added mines
 #Added nicknames
+
+Change log v0.02:
+#Added advanced setting: now the player can set the color of snakes and mines
