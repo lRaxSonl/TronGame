@@ -102,8 +102,9 @@ nickP2 = input("Second nickname for second player: ")
 usrSetSettings = input("Do you want to open advanced settings? Y/N: ")
 
 if usrSetSettings in ['Y', 'y']:
-    colorP1, colorP2, minesColor = settings()
-    main(colorP1, colorP2, minesColor)
+    if __name__ == "__main__":
+        colorP1, colorP2, minesColor = settings()
+        main(colorP1, colorP2, minesColor)
 
 else:
     if __name__ == "__main__":
